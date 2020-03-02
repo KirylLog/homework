@@ -2,13 +2,13 @@ package by.antonau;
 
 public class homework8 {
 	public static void main(String[] args) {
-		int factorial = 1;
-		int i = 1;
-		while (i <= 10) {
+		long factorial = 1;
+		long i = 1;
+		while (i <= 33) {
 			factorial *= i;
 			i++;
 		}
-		System.out.println("Factorial of the number 200 = "+factorial);
+		System.out.println("Factorial of the number 33 = "+factorial);
 	}
 }
 
