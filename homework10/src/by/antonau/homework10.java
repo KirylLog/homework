@@ -4,14 +4,14 @@ import java.util.Scanner;
 public class homework10 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        int n = scan.nextInt();
+        int x = scan.nextInt();
         int sum = 0;
-        sum(n, sum);
+        sum(x, sum);
     }
-    public static void sum(int n, int sum){
-        if(n!=0){
-            sum+=n%10;
-            sum(n/10, sum);
+    public static void sum(int x, int sum){
+        if(x != 0){
+            sum += x % 10;
+            sum(x / 10, sum);
         }
         else System.out.println(sum);
     }
