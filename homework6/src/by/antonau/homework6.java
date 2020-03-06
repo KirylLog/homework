@@ -1,6 +1,6 @@
 package by.antonau;
 
-public class homework6 {
+public class Homework6 {
 
     public static void main(String[] args) {
 

@@ -1,6 +1,6 @@
 package by.antonau;
 
-public class homework8 {
+public class Homework8 {
 	public static void main(String[] args) {
 		long factorial = 1;
 		long i = 1;
