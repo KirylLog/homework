@@ -3,7 +3,7 @@ package by.antonau;
 public class homework5 {
 
     public static void main(String[] args) {
-        int n = 3;
+        int n = 26;
         if ((n % 100) == 11 | (4 < n & n < 21) |(n & 100) == 11) {
             System.out.println(n + " рублей");
         } else if (n % 10 == 1) {

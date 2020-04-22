@@ -1,8 +1,8 @@
-package by.antonau;
+package by.antonov;
 
 import java.util.Scanner;
 
-public class Homework11 {
+public class Homework13 {
     public static void main(String[] args) {
         System.out.println("Введите любое число");
         Scanner scan = new Scanner(System.in);
@@ -23,6 +23,3 @@ public class Homework11 {
 
     }
 }
-
-
-
