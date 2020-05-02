@@ -10,7 +10,7 @@ public class Homework14 {
         int maxMarkIndex = 0;
         int maxMark = marks[0]; // присваивание максимального значения оценки
         for (int i = 0; i < marks.length; i++) { //цикл поиска максимального значения
-            if (maxMark < marks[i]){
+            if (maxMark < marks[i]) {
                 maxMark = marks[i];
                 maxMarkIndex = i;
             }
